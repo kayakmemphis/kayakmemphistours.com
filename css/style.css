@@ -321,6 +321,10 @@ h4, h5, h6, figure {
   text-transform: uppercase;
 }
 
+.hours li {
+  list-style-type: none;
+}
+
 @media screen and (max-width: 480px) {
   .col-xxs-12 {
     float: none;
@@ -617,6 +621,10 @@ h4, h5, h6, figure {
 .kmt-heading h2 {
   font-size: 50px;
   margin-bottom: 20px;
+}
+.kmt-subheading {
+  font-size: 25px;
+  color: #118AB2;
 }
 
 #kmt-pricing .kmt-heading h2 {
@@ -1386,7 +1394,7 @@ h4, h5, h6, figure {
 .kmt-pricing .pricing-plan {
   margin: 0 0 50px 0;
   padding: 0;
-  font-size: 20px;
+  font-size: 25px;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 700;
